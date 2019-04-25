@@ -1,7 +1,8 @@
 # Image-Classification-On-Colab
 
-This repo is designed to be as easy as possible for instructors to teach how transfer learning using a hands on example
-without installing single piece of software.
+This repo is designed to be as easy as possible for instructors to teach how transfer learning works using a hands on example
+without installing a single piece of software. The students will get to use keras (with TensorFlow backend) along with GPUs to 
+classify different dog breeds.
 
 ## You'll still need these things for all the participants though:
 
@@ -11,7 +12,7 @@ without installing single piece of software.
 
 ## Get the dataset
 
-Colab will need to access the [dog breed dataset](https://www.kaggle.com/c/dog-breed-identification). It does this by using the 
+Colab will need to access the [dog breed dataset](https://www.kaggle.com/c/dog-breed-identification). It does this by using a 
 copy of the dataset from you google drive account. So, you'll first have to copy over the zip file to your google drive home 
 directory.
 
@@ -26,4 +27,4 @@ and that the zip file is in the home directory (not in any directory).
 ## Credits
 
 * https://github.com/floydhub/image-classification-template : I took their code and modified it to work on Colab.
- 
+* This repo was originally designed for NEUR 4984: The Artificial Brain at Virginia Tech
